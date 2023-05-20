@@ -1,4 +1,4 @@
-class writeme < Formula
+class Writeme < Formula
   desc "Cross-platform README generator for your project"
   homepage "https://github.com/BabelDev0/writeme"
   url "https://github.com/BabelDev0/writeme/releases/download/v0.1.0/writeme-mac.tar.gz"
