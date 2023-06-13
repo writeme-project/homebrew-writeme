@@ -5,14 +5,19 @@
 class Writeme < Formula
   desc "Cross-platform readme generator for your project"
   homepage "https://github.com/writeme-project/writeme"
-  url "https://github.com/writeme-project/writeme/archive/v0.2.0-rc0.tar.gz"
-  sha256 "0c25d313fa6b413d56611424bcbe8d0205a8a6165fa0f9d282b653f6d2191fed"
+  url "https://github.com/writeme-project/writeme/archive/v0.1.8.tar.gz"
+  sha256 "6b3aadc40c6b2d93a01d7a20973406a17e53a33517f4750123adb5c58424ca0f"
   license "GPL-3.0"
 
   on_macos do
+    on_intel do
+      url "https://github.com/writeme-project/writeme/releases/download/v0.1.8/writeme-0.1.8-darwin-amd64.tar.gz"
+      sha256 "6c3b9407c8adade62300a7bc7d6edb9bde96a076e61842bd53332631886da442"
+    end
+
     on_arm do
-      url "https://github.com/writeme-project/writeme/releases/download/v0.2.0-rc0/writeme-0.2.0-rc0-darwin-arm64.tar.gz"
-      sha256 "2239ecde9ff76a964feb5a7d2ea1ebd3cf876d98ef509205874b7f46572d8d2b"
+      url "https://github.com/writeme-project/writeme/releases/download/v0.1.8/writeme-0.1.8-darwin-arm64.tar.gz"
+      sha256 "20929f622fc56320c3a17cbbca732680f6917c960c8a0ffa5ae6b6f1383d8eb1"
     end
   end
 
