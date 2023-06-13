@@ -17,7 +17,7 @@ class Writeme < Formula
 
     on_arm do
       url "https://github.com/writeme-project/writeme/releases/download/v0.1.8/writeme-0.1.8-darwin-arm64.tar.gz"
-      sha256 "20929f622fc56320c3a17cbbca732680f6917c960c8a0ffa5ae6b6f1383d8eb1"
+      sha256 "e71c426863e3e91f3508e2075ce66f7c666c92f4d1a9348edd95134acc3802a9"
     end
   end
 
