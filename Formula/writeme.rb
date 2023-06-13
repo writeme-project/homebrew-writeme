@@ -12,7 +12,7 @@ class Writeme < Formula
   on_macos do
     on_arm do
       url "https://github.com/writeme-project/writeme/releases/download/v0.2.0-rc0/writeme-0.2.0-rc0-darwin-arm64.tar.gz"
-      sha256 "951dcee3a7a4f3aac67ec76a2ce4469cc76df650f134bf2572bf60a65c982338"
+      sha256 "55456307a2879d622311672e39da1093c1c955950e2858d1ac5d0d042cf233e9"
     end
   end
 
